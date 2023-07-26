@@ -1,0 +1,42 @@
+###NV### jeu. 08 juin 2023 16:44:46 CEST #### Max GPUs = 1
+
+EnvironmentNameNotFound: Could not find conda environment: server-2.9.0
+You can list all discoverable environments with `conda info --envs`.
+
+
+###NV### jeu. 08 juin 2023 16:44:47 CEST #### Command: jupyter-lab --no-browser --ip=0.0.0.0 --notebook-dir=/home/esa/data-science-stack-2.9.0
+[W 16:44:50.019 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 16:44:51.090 LabApp] JupyterLab extension loaded from /home/esa/.local/lib/python3.8/site-packages/jupyterlab
+[I 16:44:51.090 LabApp] JupyterLab application directory is /home/esa/.local/share/jupyter/lab
+[I 16:44:52.129 LabApp] The port 8888 is already in use, trying another port.
+[I 16:44:52.130 LabApp] The port 8889 is already in use, trying another port.
+[I 16:44:52.130 LabApp] The port 8890 is already in use, trying another port.
+[I 16:44:52.132 LabApp] Serving notebooks from local directory: /home/esa/data-science-stack-2.9.0
+[I 16:44:52.133 LabApp] Jupyter Notebook 6.4.5 is running at:
+[I 16:44:52.133 LabApp] http://esas:8891/?token=14c4cb6a163e9e9edbee008951c2fe8662abb31d26e3cd13
+[I 16:44:52.133 LabApp]  or http://127.0.0.1:8891/?token=14c4cb6a163e9e9edbee008951c2fe8662abb31d26e3cd13
+[I 16:44:52.133 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:44:52.143 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/esa/.local/share/jupyter/runtime/nbserver-389093-open.html
+    Or copy and paste one of these URLs:
+        http://esas:8891/?token=14c4cb6a163e9e9edbee008951c2fe8662abb31d26e3cd13
+     or http://127.0.0.1:8891/?token=14c4cb6a163e9e9edbee008951c2fe8662abb31d26e3cd13
+[I 16:45:57.967 LabApp] 302 GET /?token=14c4cb6a163e9e9edbee008951c2fe8662abb31d26e3cd13 (127.0.0.1) 1.870000ms
+[W 16:46:02.209 LabApp] 404 GET /api/contents/1-network_analysis_SOMNET_ESA270922.ipynb?content=0&1686235562145 (127.0.0.1): No such file or directory: 1-network_analysis_SOMNET_ESA270922.ipynb
+[W 16:46:02.210 LabApp] No such file or directory: 1-network_analysis_SOMNET_ESA270922.ipynb
+[W 16:46:02.210 LabApp] 404 GET /api/contents/1-network_analysis_SOMNET_ESA270922.ipynb?content=0&1686235562145 (127.0.0.1) 3.880000ms referer=http://esas:8891/lab
+[W 16:46:02.211 LabApp] 404 GET /api/contents/2-visualization_3d_SOMNET_ESA270922.ipynb?content=0&1686235562148 (127.0.0.1): No such file or directory: 2-visualization_3d_SOMNET_ESA270922.ipynb
+[W 16:46:02.212 LabApp] No such file or directory: 2-visualization_3d_SOMNET_ESA270922.ipynb
+[W 16:46:02.212 LabApp] 404 GET /api/contents/2-visualization_3d_SOMNET_ESA270922.ipynb?content=0&1686235562148 (127.0.0.1) 4.430000ms referer=http://esas:8891/lab
+[W 16:46:02.217 LabApp] 404 GET /api/contents/corrmatx.ipynb?content=0&1686235562150 (127.0.0.1): No such file or directory: corrmatx.ipynb
+[W 16:46:02.217 LabApp] No such file or directory: corrmatx.ipynb
+[W 16:46:02.218 LabApp] 404 GET /api/contents/corrmatx.ipynb?content=0&1686235562150 (127.0.0.1) 2.600000ms referer=http://esas:8891/lab
+[W 16:46:02.220 LabApp] 404 GET /api/contents/1-network_analysis.ipynb?content=0&1686235562152 (127.0.0.1): No such file or directory: 1-network_analysis.ipynb
+[W 16:46:02.220 LabApp] No such file or directory: 1-network_analysis.ipynb
+[W 16:46:02.221 LabApp] 404 GET /api/contents/1-network_analysis.ipynb?content=0&1686235562152 (127.0.0.1) 2.390000ms referer=http://esas:8891/lab
+[W 16:46:02.223 LabApp] 404 GET /api/contents/Untitled.ipynb?content=0&1686235562154 (127.0.0.1): No such file or directory: Untitled.ipynb
+[W 16:46:02.223 LabApp] No such file or directory: Untitled.ipynb
+[W 16:46:02.224 LabApp] 404 GET /api/contents/Untitled.ipynb?content=0&1686235562154 (127.0.0.1) 2.570000ms referer=http://esas:8891/lab
+[I 16:46:02.352 LabApp] Build is up to date
